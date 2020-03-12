@@ -1,0 +1,35 @@
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.signInContainer {
+  background-color: #efefef;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.column {
+  background-color: #fff;
+  max-height: 100%;
+  min-height: 300px;
+  width: 450px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 1px 2px;
+}
+
+.column form {
+  display: flex;
+  flex-direction: column;
+}
+
+/** Classe para estilizar os erros de validação
+.errorMassage {
+
+
+
+}
+**/

@@ -1,35 +1,67 @@
 html,
 body {
-  height: 100%;
-  padding: 0;
-  margin: 0;
-}
-
-.signInContainer {
-  background-color: #efefef;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+ margin: 0;
+ padding:0;
+ font-family: sans-serif;
+ min-height: 100vh;
+ background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(netflixbackground.jpg);
+ background-position: center center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-attachment: fixed;
+ height: 100vh;
 }
 
 .column {
-  background-color: #fff;
-  max-height: 100%;
-  min-height: 300px;
-  width: 450px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0 1px 2px;
+  position: absolute;
+  width: 340px;
+  left: 35%;
+  top: 10%;
+  padding: 10px 40px 40px;
+  background: rgba(0, 0, 0, 0.9);
+  border-radius: 10px;
 }
 
-.column form {
-  display: flex;
-  flex-direction: column;
+.column h3 {
+  color:white;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
-/** Classe para estilizar os erros de validação
-.errorMassage {
-
-
-
+.signInContainer span {
+  color: white;
 }
-**/
+
+.column a {
+  color:rgb(128, 123, 123);
+}
+
+.column form input[type='text'],
+.column form input[type='email'],
+.column form input[type='password'] {
+  border:none;
+  background: none;
+  display:block;
+  margin: 10px 0;
+  font-size: 14px;
+  text-align: left;
+  background:rgb(78, 75, 75);
+  border-radius: 2px;
+  padding: 7px 15px;
+  width: 300px;
+  outline: none;
+  color: white;
+}
+
+.column form input[type="submit"] {
+  background-color: rgb(243, 18, 18);
+  color: #dedede;
+  height: 30px;
+  width: 90px;
+  border: none;
+  border-radius: 3px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}

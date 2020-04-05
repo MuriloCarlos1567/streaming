@@ -1,7 +1,6 @@
 <?php
-
 class Entity {
-    
+
     private $con, $sqlData;
 
     public function __construct($con, $input) {
@@ -36,5 +35,4 @@ class Entity {
     }
 
 }
-
 ?>
